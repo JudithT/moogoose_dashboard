@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+      <h2>Moongoose Details</h2>
+
+      <p>Name:<%= users[0].name%></p>
+      <p>Color:<%= users[0].color%></p>
+      <p>Weight:<%= users[0].weight%></p>
+    <p>Age:<%= users[0].age%></p>
+    <p> Gender:<%= users[0].gender%></p>
+    <a href="/mongooses/edit/<%= users[0].id%>"><button type="button" name="button">Edit your Moogoose!</button></a>
+    <a href="/mongooses/delete/<%= users[0].id%>"><button type="button" name="button">Delete your Moogoose!</button></a>
+
+
+
+
+  </body>
+</html>
